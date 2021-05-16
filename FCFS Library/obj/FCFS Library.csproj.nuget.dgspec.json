@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\College\\C#\\FCFS Library\\FCFS Library.csproj": {}
+    "D:\\Study\\College\\C#\\New folder (8)\\FCFS-Simulation\\FCFS Library\\FCFS Library.csproj": {}
   },
   "projects": {
-    "D:\\Study\\College\\C#\\FCFS Library\\FCFS Library.csproj": {
+    "D:\\Study\\College\\C#\\New folder (8)\\FCFS-Simulation\\FCFS Library\\FCFS Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\College\\C#\\FCFS Library\\FCFS Library.csproj",
+        "projectUniqueName": "D:\\Study\\College\\C#\\New folder (8)\\FCFS-Simulation\\FCFS Library\\FCFS Library.csproj",
         "projectName": "FCFS Library",
-        "projectPath": "D:\\Study\\College\\C#\\FCFS Library\\FCFS Library.csproj",
+        "projectPath": "D:\\Study\\College\\C#\\New folder (8)\\FCFS-Simulation\\FCFS Library\\FCFS Library.csproj",
         "packagesPath": "C:\\Users\\Sadek\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\College\\C#\\FCFS Library\\obj\\",
+        "outputPath": "D:\\Study\\College\\C#\\New folder (8)\\FCFS-Simulation\\FCFS Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sadek\\AppData\\Roaming\\NuGet\\NuGet.Config",
