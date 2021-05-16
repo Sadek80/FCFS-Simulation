@@ -116,10 +116,9 @@ namespace FCFS_Library
         /// </summary>
         private void setGranttChart()
         {
-            int currentValue = brustTime[0];
-            granttChart.Add(0, brustTime[0]);
+            int currentValue = 0;
 
-            for (int i = 1; i < processNumbers - 1; i++)
+            for (int i = 0; i < processNumbers; i++)
             {
                 currentValue += brustTime[i];
                 granttChart.Add(i, currentValue);
