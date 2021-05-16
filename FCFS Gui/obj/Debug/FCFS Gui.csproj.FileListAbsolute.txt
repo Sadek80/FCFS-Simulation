@@ -1,0 +1,13 @@
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Gui\bin\Debug\FCFS Gui.exe.config
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Gui\bin\Debug\FCFS Gui.exe
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Gui\bin\Debug\FCFS Gui.pdb
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Gui\bin\Debug\FCFS Library.dll
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Gui\bin\Debug\FCFS Library.pdb
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Gui\obj\Debug\FCFS Gui.csprojAssemblyReference.cache
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Gui\obj\Debug\FCFS_Gui.MainForm.resources
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Gui\obj\Debug\FCFS_Gui.Properties.Resources.resources
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Gui\obj\Debug\FCFS Gui.csproj.GenerateResource.cache
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Gui\obj\Debug\FCFS Gui.csproj.CoreCompileInputs.cache
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Gui\obj\Debug\FCFS Gui.csproj.CopyComplete
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Gui\obj\Debug\FCFS Gui.exe
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Gui\obj\Debug\FCFS Gui.pdb

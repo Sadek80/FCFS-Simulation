@@ -7,3 +7,12 @@ D:\Study\College\C#\FCFS Library\obj\Debug\netstandard2.0\FCFS Library.csproj.Co
 D:\Study\College\C#\FCFS Library\obj\Debug\netstandard2.0\FCFS Library.dll
 D:\Study\College\C#\FCFS Library\obj\Debug\netstandard2.0\FCFS Library.pdb
 D:\Study\College\C#\FCFS Library\obj\Debug\netstandard2.0\FCFS Library.csprojAssemblyReference.cache
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Library\bin\Debug\netstandard2.0\FCFS Library.deps.json
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Library\bin\Debug\netstandard2.0\FCFS Library.dll
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Library\bin\Debug\netstandard2.0\FCFS Library.pdb
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Library\obj\Debug\netstandard2.0\FCFS Library.csprojAssemblyReference.cache
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Library\obj\Debug\netstandard2.0\FCFS Library.AssemblyInfoInputs.cache
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Library\obj\Debug\netstandard2.0\FCFS Library.AssemblyInfo.cs
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Library\obj\Debug\netstandard2.0\FCFS Library.csproj.CoreCompileInputs.cache
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Library\obj\Debug\netstandard2.0\FCFS Library.dll
+D:\Study\College\C#\New folder (8)\FCFS-Simulation\FCFS Library\obj\Debug\netstandard2.0\FCFS Library.pdb
