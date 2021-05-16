@@ -35,30 +35,38 @@ namespace FCFS_Gui
 
         private void CalculateButton_Click(object sender, EventArgs e)
         {
-            reset();
-            int numbers = Int32.Parse(ProcessNumberTextBox.Text);
-            FCFS fCFS = new FCFS(numbers);
-            int[] burstTime = fCFS.getBrustTime();
-            int[] waitingTime = fCFS.getWaitingTime();
-            int[] turnAroundTime = fCFS.getTurnAroundTime();
-            for (int i = 0; i < numbers; i++)
+            if(ProcessNumberTextBox.Text != "" && Int32.Parse(ProcessNumberTextBox.Text) != 0)
             {
-                ListViewItem item = new ListViewItem(i.ToString());
-                item.SubItems.Add(burstTime[i].ToString());
-                item.SubItems.Add(waitingTime[i].ToString());
-                item.SubItems.Add(turnAroundTime[i].ToString());
-                FCFSListView.Items.Add(item);
+                reset();
+                int numbers = Int32.Parse(ProcessNumberTextBox.Text);
+                FCFS fCFS = new FCFS(numbers);
+                int[] burstTime = fCFS.getBrustTime();
+                int[] waitingTime = fCFS.getWaitingTime();
+                int[] turnAroundTime = fCFS.getTurnAroundTime();
+                for (int i = 0; i < numbers; i++)
+                {
+                    ListViewItem item = new ListViewItem(i.ToString());
+                    item.SubItems.Add(burstTime[i].ToString());
+                    item.SubItems.Add(waitingTime[i].ToString());
+                    item.SubItems.Add(turnAroundTime[i].ToString());
+                    FCFSListView.Items.Add(item);
+                }
+
+                foreach (var proc in fCFS.getGranttChart())
+                {
+                    GranttChart.Series["Grantt Chart"].Points.AddXY(proc.Key, proc.Value);
+                }
+
+                NumberFormatInfo setPrecision = new NumberFormatInfo();
+
+                setPrecision.NumberDecimalDigits = 2;
+                AverageWaitingTimeLabel.Text = fCFS.getAvgWaitingTime().ToString("N", setPrecision);
             }
 
-            foreach(var proc in fCFS.getGranttChart())
+            else
             {
-                GranttChart.Series["Grantt Chart"].Points.AddXY(proc.Key, proc.Value);
+                MessageBox.Show("Enter Valid Value");
             }
-
-            NumberFormatInfo setPrecision = new NumberFormatInfo();
-
-            setPrecision.NumberDecimalDigits = 2;
-            AverageWaitingTimeLabel.Text = fCFS.getAvgWaitingTime().ToString("N", setPrecision);
         }
 
         private void ResetButton_Click(object sender, EventArgs e)
