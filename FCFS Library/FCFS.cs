@@ -62,16 +62,6 @@ namespace FCFS_Library
             setGranttChart();
         }
 
-        ///// <summary>
-        ///// Get random values for the brust time
-        ///// </summary>
-        ///// <returns> Random brust time </returns>
-        //private int getRandom()
-        //{
-        //    Random random = new Random();
-        //    return random.Next(1, 100);
-        //}
-
         /// <summary>
         /// Find the waiting time for each process
         /// </summary>
